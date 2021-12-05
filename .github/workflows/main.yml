@@ -25,4 +25,4 @@ jobs:
           architecture: x64
       
       - name: Check for compile errors
-        run: javac ./src/engine/*.java ./src/entity/*.java ./src/screen/*.java -d ./out
+        run: javac ./src/engine/*.java ./src/entity/*.java ./src/screen/*.java ./test/entity/*.java -d ./out
