@@ -26,6 +26,3 @@ jobs:
       
       - name: Check for compile errors
         run: javac ./src/engine/*.java ./src/entity/*.java ./src/screen/*.java -d ./out
-
-      - name: Check for Test errors
-        run: javac ./test/entity/*.java
