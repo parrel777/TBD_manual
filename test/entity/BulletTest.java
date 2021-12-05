@@ -12,7 +12,7 @@ class BulletTest {
 
     @BeforeEach // 생명주기 anotation
     void setUp() {
-        bullet = new Bullet(0, 0, 9);
+        bullet = new Bullet(0, 0, 3);
     }
 
     @AfterEach
